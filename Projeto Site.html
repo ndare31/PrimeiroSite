@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Projeto</title>
+</head>
+<body>
+    <h1>Desafio do Projeto</h1>
+    <h2>
+        Explicando as aulas
+    </h2>
+    <hr />
+    <h3 id="indice">Índice</a></h3>
+    <ul>
+        <li><a href="#Comeco"> Apresentação ao HTML</a></li>
+        <li><a href="#basic"> Estrutura Básica do HTML</a></li>
+        <li><a href="#tags"> Tags</a></li>
+        <li><a href="#atributos"> Atributos</a></li>
+        <li><a href="#text"> Textos</a></li>
+        <li><a href="#list"> Listas</a></li>
+        <li><a href="#link"> Links</a></li>
+        <li><a href="#ref"> Referências</a></li>
+    </ul>
+    <h2 id="Comeco"> Aulas 1, 2 e 3</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>
+        A aula é uma apresentação do curso, falando sobre a ferramenta que iremos utilizar, o Visual Studio. Nele iremos utilizar a linguagem de marcação HTML.
+        O professor Diogo também fala sobre o uso da ferramenta <strong>inspecionar elemento</strong>, que se encontra na maioria dos navegadores.
+    </p>
+    <hr />
+    <h2 id="basic"> Aula 4 - Estrutura básica do HTML</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>
+        Nessa aula, ele fala sobre a estrutura básica do HTML, sendo composto por <mark>DOCTYPE, html, head e body</mark> e dá uma introdução do que será feito
+        na próxima aula que será sobre as tags.
+    </p>
+    <hr />
+    <h2 id="tags"> Aula 5 - Falando sobre tags</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+    <p>Ele dá uma introdução das principais tags de texto</p>
+    <ul>
+        <li> A tag <strong>i</strong> deixa o texto em itálico</li>
+        <li> A tag <strong>strong</strong> deixa o texto em negrito</li>
+        <li> A tag <strong>input</strong> não possui tag de fechamento, mas necessita de atributos para especificar sua função</li>
+        <li> A tag <strong>img</strong> também não possui tag de fechamento, precisa de atributos para especificar a imagem</li>
+    <p> Ele encerra a aula e fala dos atributos</p>
+    <hr />
+    <h2 id="atributos"> Aula 6 - Atributos das tags</h2>
+    <small><a href="#indice">(Voltar)</a></small>
+     <p>Atributos de tags são propriedades que as tags podem ter. Essas são algumas
+        dos atributos mais genéricos.
+     </p>
+     <ul>
+        <li>
+            <strong>Id</strong> é um atributo que serve para identificar um elemento,
+        isso é importante quando se trabalha com outras linguagens em conjunto, como CSS ou JS.
+        </li>
+        <li>
+            <strong>Style</strong> é um atributo que permite que usemos o CSS em um código
+            HTML, ele é mais focado para o CSS, mas pode ser utilizado no HTML ou JS.
+        </li>
+        <li>
+            <strong>Class</strong> é outro atributo que permite padronizar algum elemento, como um
+            título ou texto. Iremos focar mais no curso de CSS
+        </li>
+        <br>
+        <p>
+            Alguns atributos são mais específicos para algumas tags, como a tag <mark>style</mark>
+            que usam o atributo <mark>type</mark> para definir se seu valor será numérico, texto ou 
+            cor. <mark>A tag input cria uma caixa.</mark>
+        </p>
+        <p> A tag <mark>img</mark> pede um atributo específico chamado <i>src</i>
+        que endereça a imagem, identificando se ela vem do próprio computador ou da internet.
+        Além de atributos como <i>widht</i> que permite modificar o comprimento da imagem.
+        </p>
+     </ul>
+     <hr />
+<h2 id="text"> Aula 7 - Textos</h2>
+<small><a href="#indice">(Voltar)</a></small>
+    <ol>
+        <li>A tag <i>h</i> significa header, cabeçalho em português, é numerado de 1 a 6, sendo o 1 o maior e o 6 menor.</li>
+        <li>A tag <i>p</i> é responsável por criar parágrafos, textos.</li>
+        <li>A tag <i>blockquote</i> cria uma citação no corpo do texto.</li>
+        <li>A tag <i>strong</i> cria um texto em negrito.</li>
+        <li>A tag <i>i</i> cria um texto em itálico.</li>
+        <li>A tag <i>u</i> significa underline, ou seja, sublinhado.</li>
+        <li>A tag <i>sup</i> é uma forma digitar um texto menor na parte de cima de um texto normal, como em marcas registradas.</li>
+</ol>
+<hr />
+<h2 id="list"> Aula 8 - Listas Ordenadas e Não Ordenadas</h2>
+<small><a href="#indice">(Voltar)</a></small>
+     <p>A tag <i>ol</i> é uma tag pai, ou seja, ordinary list, que define o tipo de lista
+    e necessita de tags filhas, como a <i>li</i> que significa list-item. No caso das Ordenadas
+    elas são numeradas, mas podem ser modificadas no CSS. Já na <i>ul</i>, unordinary list, que também
+    é uma tag pai, ela não vai numerar os itens.
+    </p>
+    <hr />
+<h2 id="link">Aula 9 - Links</h2>
+<small><a href="#indice">(Voltar)</a></small>
+     <p>A tag que linka sites, é <i>a</i> e ela necessita de um atributo
+     para conseguir fazer isso, que é chamado <i>href</i>, serve para referenciar
+     um link. Exemplo: 
+     <blockquote>
+        <a href="https://www.dio.me" title="KONO DIO DA" target="_blank">Site da DIO</a>
+     </blockquote>
+    </p>
+    <P>Esse mesmo atributo possui atributos para forma como o link se comporta, como o <i>target="_blank"</i>
+        que executa o link e abre-o em outra página. Se no lugar de _blank, fosse <i>_self</i>,
+        ele abriria na mesma página. Há outro atributo para tag <i>a</i>, que é a <i>title</i>
+        que cria um balãozinho no link.
+    </P>
+
+    <h2 id="ref"> Referências</h2>
+    <small><a href="#indice">(Voltar)</a></small><br>
+    <br>
+    <a href="https://web.dio.me/home">Site da Dio</a><br>
+    <a href="https://youtu.be/1LJGQb_pn6k?si=EBSVn1GZXVHNsq3X">Curso HTML para INICIANTES 1/4</a><br>
+    <a href="https://youtu.be/3oSIqIqzN3M?si=D-oyw6hNZQguMw20">5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO!</a>
+</body>
+</html>
